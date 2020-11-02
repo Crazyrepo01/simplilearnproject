@@ -10,7 +10,7 @@ pipeline {
 
         stage('Cloning our Git') { 
             steps { 
-                git 'https://github.com/ctg123/dockerized-jenkins.git' 
+                git 'https://github.com/ctg123/dockerize-jenkins.git' 
             }
         } 
         stage('Building our image') { 
