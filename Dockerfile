@@ -16,7 +16,6 @@ RUN apt-get update && \
 RUN apt-get install -y docker-ce
 RUN usermod -a -G docker jenkins
 USER jenkins
-RUN chmod 666 /var/run/docker.sock
 #ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 #ENV JENKINS_USER admin
 #ENV JENKINS_PASS admin
