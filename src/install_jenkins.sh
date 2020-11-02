@@ -8,13 +8,13 @@ echo "deb https://pkg.jenkins.io/debian-stable binary/" > /etc/apt/sources.list.
 apt-get update
 apt install -y openjdk-8-jdk
 java -version
-echo "##################"
+echo "+++++++++++++++++"
 echo " Jenkins install "
-echo "##################"
+echo "+++++++++++++++++"
 apt-get install -y jenkins
 apt-get update
 systemctl status jenkins
-echo "#################################################"
+echo "+++++++++++++++++++++++++++++++++++++++++++++++++"
 echo "Check the initial password to login into Jenkins."
-echo "#################################################"
+echo "+++++++++++++++++++++++++++++++++++++++++++++++++"
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
