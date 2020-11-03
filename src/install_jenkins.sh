@@ -1,7 +1,7 @@
-#############################
-## Jenkins installation
-## tested on Ubnutu 18.04 VM
-#############################
+##########################
+#Jenkins installation
+#tested on Ubuntu 18.04 VM
+##########################
 #!/bin/sh
 wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
 echo "deb https://pkg.jenkins.io/debian-stable binary/" > /etc/apt/sources.list.d/jenkins.list

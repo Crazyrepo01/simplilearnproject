@@ -1,6 +1,6 @@
 ##########################
-Docker Installation
-Tested on Ubuntu 18.04 VM
+#Docker Installation
+#Tested on Ubuntu 18.04 VM
 ##########################
 
 #!/bin/sh
