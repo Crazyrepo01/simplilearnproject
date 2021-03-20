@@ -1,7 +1,7 @@
 pipeline { 
     environment { 
         registry = "ctgraves16/ubuntu_jenkins" 
-        registryCredential = 'dockerhub_id' 
+        registryCredential = 'alokgupta10' 
         dockerImage = '' 
     }
 
@@ -10,7 +10,7 @@ pipeline {
 
         stage('Cloning our Git') { 
             steps { 
-                git 'https://github.com/ctg123/dockerize-jenkins.git' 
+                git 'https://github.com/Crazyrepo01/simplilearnproject.git' 
             }
         } 
         stage('Building our image') { 
